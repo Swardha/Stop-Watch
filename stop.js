@@ -37,10 +37,18 @@ function display(){
                 min=0;
                 hr++;
             }
+            
         }
     }
 
-    para.innerHTML=`${hr} : ${min} : ${sec}: ${millisec}`;
+    let h = hr < 10 ? "0" + hr : hr;
+    let m = min < 10 ? "0" + min : min;
+    let s = sec < 10 ? "0" + sec : sec;
+    let ms = millisec < 10 ? "00" + millisec : millisec <100 ? "0" + millisec : millisec;
+
+    
+
+    para.innerHTML=`${h} : ${m} : ${s}: ${ms}`;
     
 
 
