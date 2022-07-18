@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:rgb(231, 127, 167);
+    background-color:rgb(211, 148, 172);
 }
 
 .container{
@@ -18,10 +18,13 @@ body{
     align-items: center;
     place-items: center;
     text-align: center;
-    background-color:rgb(243, 128, 172);
+    background-color:rgb(211, 148, 172);
     border-radius: 20px;
-    box-shadow: -5px -5px 10px rgb(233, 158, 187),
-     5px 5px 10px rgb(233, 158, 187);
+
+    box-shadow:  -10px -10px 15px  rgba(238, 167, 188, 0.5),
+                 10px 10px 15px  rgba(83, 80, 80, 0.12),
+                  inset -10px -10px 15px  rgba(240, 172, 211, 0.5),
+                  inset 10px 10px 15px  rgba(51, 47, 47, 0.12);
     
 }
 
@@ -41,9 +44,9 @@ button{
     padding:15px;
     margin:20px;
     font-size: 25px;
-    background-color: rgb(243, 128, 172);
-    box-shadow: -4px -4px 15px rgb(233, 158, 187),
-     4px 4px 20px rgb(233, 158, 187);
+    background-color: rgb(233, 112, 158);
+    box-shadow: -7px -7px 15px  rgba(248, 211, 218, 0.5),
+    7px 7px 15px  rgba(24, 23, 24, 0.15);
      outline:none;
      border: none;
      border-radius: 50px;
